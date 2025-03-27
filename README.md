@@ -1,7 +1,7 @@
 # [CVPR 2025]  A Unified Image-Dense Annotation Generation Model for Underwater Scenes 
 
 
-[![Website](asset/docs/badge-website.svg)](https://)
+[![Website](asset/docs/badge-website.svg)](https://hongklin.github.io/TIDE/)
 [![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
@@ -24,7 +24,7 @@ conda create -n TIDE python=3.9
 conda activate TIDE
 conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
 
-git clone https://github.com/Breeze81363/TIDE.git
+git clone https://github.com/HongkLin/TIDE
 cd TIDE
 pip install -r requirements.txt
 ```
