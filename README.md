@@ -68,14 +68,15 @@ accelerate launch --num_processes=4 --main_process_port=36666 ./tide/train_tide_
 
 
 ## 📖BibTeX
-    @misc{,
-          title={}, 
-          author={},
-          year={2024},
-          eprint={},
-          archivePrefix={arXiv},
-          primaryClass={cs.CV}
-    }
+@misc{lin2025tide,
+      title={A Unified Image-Dense Annotation Generation Model for Underwater Scenes}, 
+      author={Hongkai Lin and Dingkang Liang and Zhenghao Qi and Xiang Bai},
+      year={2025},
+      eprint={2503.21771},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.21771}, 
+}
 
     
 # 🤗Acknowledgements
