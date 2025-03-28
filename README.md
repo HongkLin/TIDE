@@ -2,7 +2,7 @@
 
 
 [![Website](asset/docs/badge-website.svg)](https://hongklin.github.io/TIDE/)
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/)
+[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2503.21771)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## 🌊 **Introduction** 
