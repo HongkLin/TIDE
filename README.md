@@ -2,7 +2,7 @@
 
 
 [![Website](asset/docs/badge-website.svg)](https://hongklin.github.io/TIDE/)
-[![Paper](https://img.shields.io/badge/arXiv-PDF-b31b1b)](https://arxiv.org/abs/2503.21771)
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.21771-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2503.21771)
 [![License](https://img.shields.io/badge/License-Apache--2.0-929292)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## 🌊 **Introduction** 
@@ -65,22 +65,19 @@ accelerate launch --num_processes=4 --main_process_port=36666 ./tide/train_tide_
 --gradient_accumulation_steps=1 --seed=42 --dataloader_num_workers=4 --validation_steps 10000 \
 --wandb_name=tide_r32_64_b4_200k --output_dir=./outputs/tide_r32_64_b4_200k
 ```
-
-
-## 📖BibTeX
-@misc{lin2025tide,
-      title={A Unified Image-Dense Annotation Generation Model for Underwater Scenes}, 
-      author={Hongkai Lin and Dingkang Liang and Zhenghao Qi and Xiang Bai},
-      year={2025},
-      eprint={2503.21771},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV},
-      url={https://arxiv.org/abs/2503.21771}, 
-}
-
     
 # 🤗Acknowledgements
 - Thanks to [Diffusers](https://github.com/huggingface/diffusers) for their wonderful technical support and awesome collaboration!
 - Thanks to [Hugging Face](https://github.com/huggingface) for sponsoring the nicely demo!
 - Thanks to [DiT](https://github.com/facebookresearch/DiT) for their wonderful work and codebase!
 - Thanks to [PixArt-α](https://github.com/PixArt-alpha/PixArt-alpha) for their wonderful work and codebase!
+
+## 📖BibTeX
+```
+@inproceedings{lin2025tide,
+      title={A Unified Image-Dense Annotation Generation Model for Underwater Scenes}, 
+      author={Hongkai Lin and Dingkang Liang and Zhenghao Qi and Xiang Bai},
+      booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+      year={2025},
+}
+```
