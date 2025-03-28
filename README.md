@@ -76,7 +76,7 @@ accelerate launch --num_processes=4 --main_process_port=36666 ./tide/train_tide_
 ```
 @inproceedings{lin2025tide,
       title={A Unified Image-Dense Annotation Generation Model for Underwater Scenes}, 
-      author={Hongkai Lin and Dingkang Liang and Zhenghao Qi and Xiang Bai},
+      author={Lin, Hongkai and Liang, Dingkang and Qi, Zhenghao and Bai, Xiang},
       booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
       year={2025},
 }
