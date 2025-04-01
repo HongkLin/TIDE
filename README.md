@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ```
 
 ## 🐬 Inference
-Download the pre-trained [PixArt-α](https://huggingface.co/PixArt-alpha/PixArt-XL-2-512x512), [MiniTransformer](https://github.com/Breeze81363/TIDE/releases/download/tide_weights/TIDE_MiniTransformer.zip), and [TIDE checkpoint](https://github.com/Breeze81363/TIDE/releases/download/tide_weights/TIDE_r32_64_b4_200k.zip), then modify the model weights path.
+Download the pre-trained [PixArt-α](https://huggingface.co/PixArt-alpha/PixArt-XL-2-512x512), [MiniTransformer](https://github.com/HongkLin/TIDE/releases/download/model_weights/TIDE_MiniTransformer.zip), and [TIDE checkpoint](https://github.com/HongkLin/TIDE/releases/download/model_weights/TIDE_r32_64_b4_200k.zip), then modify the model weights path.
 ```bash
 python inference.py --model_weights_dir ./model_weights --text_prompt "A large school of fish swimming in a circle." --output ./outputs
 ```
