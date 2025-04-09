@@ -11,6 +11,7 @@ We present TIDE, a unified underwater image-dense annotation generation model. I
 ![TIDE_demo.](asset/images/teasor.png)
 ---
 ## 🐚 **News**
+- 2025-4-8: The training data and the SynTIDE dataset are available [here](https://huggingface.co/datasets/hongk1998/TIDE/tree/main)!
 - 2025-3-28: The training and inference code is now available!
 - 2025-2-27: Our TIDE is accepted to CVPR 2025!
 ---
